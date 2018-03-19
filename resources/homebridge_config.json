@@ -1,0 +1,19 @@
+{
+  "bridge": {
+    "name": "SmartHome",
+    "username": "CC:31:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "826-72-955"
+  },
+
+  "platforms": [
+    {
+      "platform" : "websocket",
+      "name" : "websocket",
+      "port": 4050
+    }
+  ],
+
+  "accessories": [
+]
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=Homebridge Daemon
+After = remote-fs.target network-online.target
+
+[Service]
+User=root
+Group=root
+
+Type=simple
+ExecStart={{arg1}} {{arg2}}
+TimeoutStopSec=20
+Restart=on-failure
+RestartSec=60
+StartLimitInterval=60s
+
+[Install]
+WantedBy=multi-user.target
