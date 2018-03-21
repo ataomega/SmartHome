@@ -2,5 +2,6 @@
 Raspberry PI SmartHome
 ```
 sudo -i
-curl https://raw.githubusercontent.com/ataomega/SmartHome/master/install.sh | sh
+wget https://raw.githubusercontent.com/ataomega/SmartHome/master/install.sh
+. install.sh
 ```
